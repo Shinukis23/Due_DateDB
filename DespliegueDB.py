@@ -23,7 +23,7 @@ saved_secondary_color = parser.get('colors', 'secondary_color')
 saved_highlight_color = parser.get('colors', 'highlight_color')
 def main_function(usuario, main_window, records, opcion, hoy):
     main_window.attributes('-disabled', True)
-    status_window = tk.Toplevel(main_window)
+    status_window = tk.Toplevel(main_window)git
     status_window.title('Autorizacion de regresos - Servicio al Cliente')
     status_window.iconbitmap("logoicon.ico")
     status_window.geometry("1100x600")
